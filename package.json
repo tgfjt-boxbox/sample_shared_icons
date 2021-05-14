@@ -1,0 +1,30 @@
+{
+  "name": "sample_shared_icons",
+  "version": "0.0.1",
+  "description": "this is sample shared icon.",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react-scripts",
+      "**/react-scripts/**",
+      "**/@generated",
+      "**/@generated/**"
+    ]
+  },
+  "scripts": {
+    "build": "node generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/tgfjt-boxbox/sample_shared_icons.git",
+  "author": "tgfjt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgfjt-boxbox/sample_shared_icons/issues"
+  },
+  "homepage": "https://github.com/tgfjt-boxbox/sample_shared_icons#readme",
+  "dependencies": {}
+}

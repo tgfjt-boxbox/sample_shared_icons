@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "SampleIcon";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/SampleIcon.ttf");
+  src: url("../fonts/SampleIcon.woff2") format("woff2"), url("../fonts/SampleIcon.ttf") format("truetype");
+}
+
+.SampleIcon {
+  font-family: "SampleIcon";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.SampleIcon-play::after {
+  content: '\e000';
+}
+
+.SampleIcon-pause::after {
+  content: '\e001';
+}
+

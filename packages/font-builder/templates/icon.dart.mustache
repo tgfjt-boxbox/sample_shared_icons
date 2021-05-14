@@ -1,0 +1,22 @@
+library sample_icon;
+
+import 'package:flutter/widgets.dart';
+
+// !!AUTOMATICALLY GENERATED!!
+
+class IconDataSample extends IconData {
+  const IconDataSample(int codePoint)
+      : super(
+          codePoint,
+          fontFamily: '{{fontName}}',
+          fontPackage: "sample_shared_icons",
+        );
+}
+
+/// Icons based on {{fontName}} font
+class {{fontName}} {
+{{#icons}}
+  /// {{name}} Icon
+  static const IconData {{name}} = const IconDataSample(0x{{#uppercase}}{{unicode}}{{/uppercase}});
+{{/icons}}
+}

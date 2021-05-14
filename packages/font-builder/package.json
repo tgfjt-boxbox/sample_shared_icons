@@ -1,0 +1,14 @@
+{
+  "name": "@sample_shared_icons/font-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@sample_shared_icons/figma-client": "*",
+    "bent": "^7.3.12",
+    "mustache": "^4.2.0",
+    "svg2ttf": "^5.2.0",
+    "svgicons2svgfont": "^10.0.1",
+    "ttf2woff2": "^4.0.2"
+  }
+}

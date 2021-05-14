@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="SampleIcon" horiz-adv-x="24">
+    <font-face font-family="SampleIcon"
+      units-per-em="24" ascent="24"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="play"
+      unicode="&#xE000;"
+      horiz-adv-x="24" d="M7 18.11554V5.8612C7 4.9268 8.02908 4.359 8.82159 4.8676L18.45 10.9948C19.1833 11.4561 19.1833 12.5207 18.45 12.9938L8.82159 19.10913C8.02908 19.61776 7 19.04999 7 18.11554z" />
+    <glyph glyph-name="play-1"
+      unicode="&#x70;&#x6C;&#x61;&#x79;"
+      horiz-adv-x="24" d="M7 18.11554V5.8612C7 4.9268 8.02908 4.359 8.82159 4.8676L18.45 10.9948C19.1833 11.4561 19.1833 12.5207 18.45 12.9938L8.82159 19.10913C8.02908 19.61776 7 19.04999 7 18.11554z" />
+    <glyph glyph-name="pause"
+      unicode="&#xE001;"
+      horiz-adv-x="24" d="M8 5C9.1 5 10 5.9 10 7V17C10 18.1 9.1 19 8 19C6.9 19 6 18.1 6 17V7C6 5.9 6.9 5 8 5zM14 17V7C14 5.9 14.9 5 16 5C17.1 5 18 5.9 18 7V17C18 18.1 17.1 19 16 19C14.9 19 14 18.1 14 17z" />
+    <glyph glyph-name="pause-1"
+      unicode="&#x70;&#x61;&#x75;&#x73;&#x65;"
+      horiz-adv-x="24" d="M8 5C9.1 5 10 5.9 10 7V17C10 18.1 9.1 19 8 19C6.9 19 6 18.1 6 17V7C6 5.9 6.9 5 8 5zM14 17V7C14 5.9 14.9 5 16 5C17.1 5 18 5.9 18 7V17C18 18.1 17.1 19 16 19C14.9 19 14 18.1 14 17z" />
+  </font>
+</defs>
+</svg>
